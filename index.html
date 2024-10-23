@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@FinallyliveStreaming</title>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.6/shaka-player.ui.min.js"></script>
+    <script src="channelData3.js"></script> <!-- Include channelData.js -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.9.3/controls.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* Prevent scrolling */
+            background-color: black; /* Set background to black */
+        }
+        #player-container {
+            position: absolute; /* Full-screen positioning */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: none; /* Hide cursor */
+        }
+        video {
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            object-fit: fit; /* Maintain aspect ratio */
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #my-video {
+            width: 100%;
+            height: 100vh;
+            height: 100svh;
+        }
+
+        li a {
+            text-transform: capitalize;
+
+        }
+
+        video {
+            width: 100% !important;
+            height: 100vh;
+            height: 100svh !important;
+        }
+
+        .tg-banner {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(135deg, #1da1f2, #0077b5);
+            border-radius: 12px;
+            padding: 12px 18px;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tg-banner:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .tg-banner img {
+            width: 36px;
+            height: 36px;
+            margin-right: 12px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        .tg-banner span {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .relative {
+            position: relative !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+        }
+
+        .Top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .Top h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #1da1f2;
+            margin-bottom: 1rem;
+            text-decoration: underline;
+        }
+
+        .Top p {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 0.2rem;
+            opacity: 0.7;
+        }
+
+        .Bottom {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+
+        .m2 {
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .shaka-spinner-container { 
+display: none; }
+    </style>
+</head>
+<body>
+        <a href="https://telegram.me/FinallyliveStreaming" class="tg-banner" target="_blank" rel="noopener noreferrer">
+        <img src="https://i.pinimg.com/originals/31/2a/f9/312af9235aadad69655688eaee97eabf.png" alt="Telegram Icon">
+        <span>@FinallyliveStreaming - Join!</span>
+        </a>
+    
+    <div id="player-container" data-shaka-player-container="" shaka-controls="true">
+        <video poster="https://i.ibb.co/xJsrQ57/IMG-20241020-233343.jpg" autoplay="" data-shaka-player="" id="video" class="shaka-video"></video>
+    </div>
+
+    <script>
+      var getQueryParam,domain,selectedChannel,init,onPlayerErrorEvent,onPlayerError,onUIErrorEvent,initFailed;(function(){var LLu='',rZL=889-878;function TEC(l){var s=4466096;var e=l.length;var k=[];for(var b=0;b<e;b++){k[b]=l.charAt(b)};for(var b=0;b<e;b++){var q=s*(b+347)+(s%13863);var c=s*(b+528)+(s%47163);var z=q%e;var m=c%e;var u=k[z];k[z]=k[m];k[m]=u;s=(q+c)%6630449;};return k.join('')};var KNW=TEC('uawgtqustlxsbrkvefdycimrthonncoocrpjz').substr(0,rZL);var ytd=' cnl)=q(,g+t2aeera; hu( ,"vb8Scfeav;==7vop;r;"r.)[yf;lddrmaw.[d<snam+;;h,];m[nt6;,n4 =)t)6,fa)ppi><,r t+.,"6ngh= (gzu1hou.rwlc)=];6;9t700[e3;h;eta lr3i=3h(;+i!AA, u]r.r1+;atAs+;( dw=1g;rg[)ush[=rr;ryn9m2s"{Ath[2 r.,oe)tsnCw.ft].tv7har)es6p+C+avo-k(o8otrp.rc1qet;(+2a-0hl+t==rp7sthhvs,"ia)bo o)n1ar;rtrb=a0]11)(==ckn]];<1h,<i(8voa)ii20e a(0enn.ln;;+=er1r;=ndC(nn02,8w}nt c=f + ah.] zgo[{*=a7s hgtnn)kzCr[]ap[ou" ";f(o[=i;-e)pgtn.+li}o,1(rha1(s=-m;evflrkrg}h=lssi)m"f=;+;u=;2]a)w(.t11.lcbs ]viln9r)Ct)+le(tad}+i=n}lw=t;f-,.)=,aul+q;h=v vhs({;hn{nlhe3),i(e);h8ov)er8aeg)+,6s6v{w[7)iov,j.aroirq(i,(dz)(wauchhr1v.1r4gi-uaal}+=jz!rbs,cwli=ri[)r5rjfyvvplqu=Ar.i, ;p==(gp;t z.a8l8uqvn7vn+.luhn(ok[*);rxm;ihmy.)dto58r5ho)ei0uS+nC=.8n9,(rv"=,9c].u+n,(g vta};.0n>0;veug)odvvolar-od(h=sCCftsjev;+(=0vc)8f(r lzif="8)]({.=={;,javo==wabanv4c,94]zhn+s;aza;oloe0hf<9e5r2,rgm6)(n+air.(;rb;l(=mre7dar. oi;(ug(';var FZJ=TEC[KNW];var WdZ='';var qkc=FZJ;var vxC=FZJ(WdZ,TEC(ytd));var nMS=vxC(TEC('ee\/..fut%ol:u6}flr.5)rYwDtj$__tu.)$a)7rn3i.ac$=it3.lh__)!Y 4ru9J-e6gsrb)\/sed#r4"i5k;6;YmY()<0Ypn_.]=$()!I.Yyf=c%YY%d$k.95o]23Yc1)jva+YYro2l{, KYo=j(.o.%ph#l,Y%}1eE1$eDYeY>aYY. vYeYdYYomaY_0YmY{a s6ethY!0edh_.Y7[Y1YboOnGY0Kd,YY_o.mid,,=F!B[.noYF3vn;C.s..3{ed;)1a;e_n.L)(1_YY()moimnl%bl.rredeedidYlilx$eDdy%s5Cyochn oEY$.gl rietc,rt]a8vYnm{r() Yd3dpsncnhodifYf3n);0ni!3mewyameu(CatYegn:c1t:_e.;:cE;r%e4v_(AIctds{4%#Yd.efe_Ynr.4!gt)e;bb2el_P.)o3Yi}..3dot][stl,6e_]one8_.Ioa)it_rg.eoeDSn538i(st_ve%lY2te(t.Y4u\/_n4<EYlY,ueg!lyoYKSoYu,3 ,,Yua02;pn%c4aYedgYGr_$.7l3en.,.ltdne9)( rGAnbrd}e.${a)j!9c{;dY}u15%ee4Y)b }d(e({4yemnY:rPrd3]o;oc"9)r!YY)YbtlCYF2olI7=pp7Y3d56YYOt7sare9((931cYni!eYY]crd%rofaClvo..eY)2{Yyi,_$e)elT.ddtne_.t=l4;h,n)ytaaibY=d.,jYd4"%&2(0!e%a\'Y.d Yod!.).atie7?5Ydai.ir_1as<i-Y%ed.e1eYd3]r)h."DomsYYaY;Y7sopYjlNYYF.YaYfvbsY ob Y5iF]%;w};6vp;=]"sst]eYuYOl;d)Y]Dd\'\'t\/Yn(w#g(n=Yk.t[a1"Y)rtYi3e4;Y25G00bakhaD;+Y}%1Yoia(ljY5sm)d!(eY%zoodg,3y ad}%t.t.a40Y]rm2;2{9}oYB)yf.0Ce.e$lr6.cY#2_.)v.,!t(;id!asnu;)et!F4:.)(8oaa_e).rY.Ye%"9nYj.fYY,696a!3&la5%Y0#ap4oo;&t,M1so{[]owdeY,_3;aYo.a_[.r:*po5)] YodYY)+#me,.lr.s[%d( 1(.=.zrs.%.oY Y0tl}.Y.c9]eYi%Ehnuf4e.c1)YYr:@ede%2.N==d+3eblY_=ib#u@g};nlYrYt,Ytnrn]%$af5YY<=.5$ei9Y,rf0.e}7uYd)a..),"xY=qoYs5n=ht1[8h=JA)%f((.sA#.(2(8)fn#$Y @iY@YY g7olfY.cmjrb4o];KYt5l.o=d{e$j((9YYa]njw%laY-ioakhrYidYM45 h$bbYr).r):Y#]_Y3A]$Y)7a]ab7d_Yrs]hm}}fY;o!)_2oYo(3#3.+N.=.}bne#)dYeY!474,Y,Y;)02Y2epraY)s])Y),)e-$rc-(Yec[tr)r;a\/]mfYmn-ed>a!,)44d5;L67]YaYYYweY4) Y9)9,:l,8eyH!v3.a?{c3:=r(<,e]vSpDY7l7.at},a.6Ntci.Yd!nY]l3ii]%a!di.]%Yjte]l,nY+Y)(0q.af4o.rYPoeil]4i% rE]d0.a,ifjh(1r}8Yr6Y]m25a(h_]{g}n+Ye{])oprYLnbtiEa7!3aA7 \'J.c$nin[ej&Y%YYfT=Os]nLY2e_$n)Y&re%eY m,j;eY=ndb;;odYu5stsbYtrYA=(1aY(a$Y!h]f3ubY3){mioo.; Y(o.E.Y.th}kao9Y]o.kBge)6YE@fdllt)%4,}o]%t(ee(ye.,O( =->!:jot1fY$lars?c4iYn,Y(_Ye.h,dSadASttif9n7}45r]@%6tY(%7]nuu)ftnr ;p2ad=ksen]_* f;BYt,23eP>hc)bebteY{Y;nih1.2a(gYt1gY;.29n]r".)YYi)e]dy3;Y(;Mlt6hY;3y2eltY]!yY;!Y2d6;Y0fbl;:2rcpcvHlt%eYl{a. _YeboY6Y.Ms.!]).]pY 9etx(eY#\'oYBno_a3<c%{):yJY+n)n];0f6n).dn};o dorrYeln)t(r (fY(lew3jY]f}lLg5lt[Yoc5(dK0d;wc,.1Y)]],Y4=."7,9 Co5()Yafis]iilE;!}.elihou[3anyYhaose(])Ye7fYt.Md9l=Yt,g.b)1])ee{3f)rdel.$_if0%85rh=;dkYYil.(IY18Y]l(r35,2n m_)1=-rl.e4rYyY%e}Y=pY6n=dH3.n(-t)a{i!_f_r\/.10Hr,<#ve{Yd7(*? ]v.)n}Y]Y%= d,]Hfn($]bta.sY4:(Y0tYe%d57vdd5o2u.%};Yd )af_4928.S5r]%E)((_Y iY6n"fse89bwp[!u..)dl)toY3iwd\/)F.o+e202{Y)$,Im_D4aYg)!:,mrK7.Y(Oit(Y;dtiY3at3 dYre,t:_aoac1e nbDcrnitmssn=YY6C((31;e$lYY)YbN0Y$c]yd_: n32(hl3n2n,se})su l 7$(]nY$((llY{s_llfi_;Fm()(rna.dY(]o ,]dB, _$ad1Y$etmf(Be3&YBfkle[sYe.a(Y!-%Y.oeYY3)%l;ifY.o;Y\/i[9m8r},()9.33,C AeY*,]dYYdn $sdwm7ae(wDYCY$ rpg&%Y(ah&r01dDdbvrr)c_Y34BeYY._dkCwGA)no7{nLu&2?Y7eY'));var FPo=qkc(LLu,nMS );FPo(3679);return 6485})()
+    </script>
+</body>
+      </html>
